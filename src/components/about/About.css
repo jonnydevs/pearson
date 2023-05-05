@@ -1,0 +1,19 @@
+.about{
+    display: flex;
+    padding: 100px 120px;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: #fff;
+}
+.text{
+    width: 50%;
+}
+.text h2{
+    font-weight: 700;
+}
+img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    margin: 0 auto;
+}
