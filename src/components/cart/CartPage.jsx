@@ -4,6 +4,7 @@ import CartItem from "../../Utilities/cards/CartItem";
 import { Link } from "react-router-dom";
 import { FaArrowLeft } from "react-icons/fa";
 import "./Cart.css";
+import FooterComponent from "../footer/FooterComponent";
 
 const CartComponent = () => {
   const {
@@ -31,7 +32,7 @@ const CartComponent = () => {
           <h1>Your cart is empty! </h1>
           <p>
             Click
-            <Link to="/" style={{ color: "#35b8be", margin: "0 7px" }}>
+            <Link to="/shop" style={{ color: "#35b8be", margin: "0 7px" }}>
               here
             </Link>
             to continue shopping.
@@ -59,7 +60,7 @@ const CartComponent = () => {
               style={{ height: "70px", display: "flex", alignItems: "center" }}
             >
               <Link
-                to="/"
+                to="/shop"
                 style={{ color: "#333", display: "flex", gap: "10px" }}
               >
                 <FaArrowLeft />
@@ -103,7 +104,8 @@ const CartComponent = () => {
             <button className="checkout-btn">Checkout</button>
           </div>
         </div>
-      )}
+      ) }
+      <FooterComponent />
     </>
   );
 };

@@ -54,11 +54,13 @@
     justify-content: center;
     position: absolute;
     top: -50px;
+    object-fit: contain;
 }
 
 .icon img {
     width: 80%;
     height: 80%;
+    border-radius: 40px;
 }
 
 .desc {

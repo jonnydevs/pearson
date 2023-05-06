@@ -26,9 +26,11 @@
     align-items: center;
     border-bottom: 1px solid #f1f1f1;
 }
-.cart-item h4{
+
+.cart-item h4 {
     width: 230px;
 }
+
 .cart-btn {
     font-size: 30px;
     cursor: pointer;

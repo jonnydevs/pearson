@@ -30,21 +30,21 @@ const messages = [
     image: man2,
     say: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quos modi voluptatibus, saepe beatae sint ipsum, molestiae aspernatur autem eos delectus voluptates. Qui, tempore nisi, architecto eligendi doloribus explicabo ratione.",
     name: "Daniel Michael",
-    profession: "Student",
+    profession: "Barber",
   },
   {
     id: 3,
     image: woman,
     say: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quos modi voluptatibus, saepe beatae sint ipsum, molestiae aspernatur autem eos delectus voluptates. Qui, tempore nisi, architecto eligendi doloribus explicabo ratione.",
     name: "Tracy Wairimu",
-    profession: "Student",
+    profession: "Salonist",
   },
   {
     id: 4,
     image: woman2,
     say: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quos modi voluptatibus, saepe beatae sint ipsum, molestiae aspernatur autem eos delectus voluptates. Qui, tempore nisi, architecto eligendi doloribus explicabo ratione.",
     name: "Lillian Amollo",
-    profession: "Student",
+    profession: "Business Manager",
   },
 ];
 const ReviewComponent = () => {

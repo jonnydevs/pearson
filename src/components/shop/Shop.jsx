@@ -6,14 +6,7 @@ import covers from "/src/assets/covers.jpg";
 import wirelessMouse from "/src/assets/wirelessMouse.jpg";
 import i12 from "/src/assets/i12.jpg";
 import gamingKeyboard from "/src/assets/gamingKeyboard.jpg";
-import i12black from "/src/assets/i12black.jpg";
-import gamingMouse from "/src/assets/gamingMouse.jpg";
-import mouse from "/src/assets/mouse.jpg";
-import gamingHeadphones from "/src/assets/gamingHeadphones.jpg";
-import Headphones from "/src/assets/headphone.jpg";
-import watch from "/src/assets/watch.jpg";
-import iphoneCase from "/src/assets/iphoneCover.jpg";
-import stickers from "/src/assets/sticker.jpg";
+import order from "/src/assets/order.jpg";
 const products = [
   {
     id: 1,
@@ -39,54 +32,6 @@ const products = [
     image: gamingKeyboard,
     price: 2500,
   },
-  {
-    id: 5,
-    title: "i12 Pods",
-    image: i12black,
-    price: 650,
-  },
-  {
-    id: 6,
-    title: "Gaming Headphones",
-    image: gamingHeadphones,
-    price: 1400,
-  },
-  {
-    id: 7,
-    title: "Iphone Case",
-    image: iphoneCase,
-    price: 1250,
-  },
-  {
-    id: 8,
-    title: "Watch",
-    image: watch,
-    price: 450,
-  },
-  {
-    id: 9,
-    title: "Gaming Mouse",
-    image: gamingMouse,
-    price: 700,
-  },
-  {
-    id: 10,
-    title: "Phone stickers",
-    image: stickers,
-    price: 300,
-  },
-  {
-    id: 11,
-    title: "Headphones",
-    image: Headphones,
-    price: 600,
-  },
-  {
-    id: 12,
-    title: "Mouse",
-    image: mouse,
-    price: 350,
-  },
 ];
 const Shop = () => {
   const { totalUniqueItems, items } = useCart();
@@ -111,6 +56,26 @@ const Shop = () => {
         {products.map((product) => (
           <ProductCard item={product} key={product.id} />
         ))}
+      </div>
+      <p className="shop-link">
+        <a href="/shop" className="primary-btn">
+          View All Products
+        </a>
+      </p>
+      <div className="order">
+        <div className="text">
+          <h2>Order at the comfort of your home now!</h2>
+          <h1>
+            We will <span>deliver</span> it to you!
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias a
+            laborum porro at illum perferendis quae? Deleniti, id? Temporibus,
+            delectus?
+          </p>
+          <p>See our full product catalogue <a href="/shop">here.</a></p>
+        </div>
+        <img src={order} alt="" />
       </div>
     </section>
   );

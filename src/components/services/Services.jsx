@@ -1,33 +1,35 @@
 import ServiceCard from "../../Utilities/cards/ServiceCard";
 import "./Services.css";
-import phoneImg from "/src/assets/icon.png";
-import mobile from "/src/assets/mobile.png";
+import Graphic from "/src/assets/graphic.jpg";
+import printing from "/src/assets/printing.jpg";
+import KRA from "/src/assets/kra.png"
+import software from "/src/assets/software.jpg";
 
 const services = [
   {
     id: 1,
-    image: phoneImg,
+    image: Graphic,
     title: "Graphic Design",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore a quo consequatur voluptatem alias expedita quae harum non neque ut?",
   },
   {
     id: 2,
-    image: mobile,
+    image: printing,
     title: "Printing & Lamination",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore a quo consequatur voluptatem alias expedita quae harum non neque ut?",
   },
   {
     id: 3,
-    image: phoneImg,
+    image: KRA,
     title: "KRA PIN Application",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore a quo consequatur voluptatem alias expedita quae harum non neque ut?",
   },
   {
     id: 4,
-    image: mobile,
+    image: software,
     title: "Software Installation",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore a quo consequatur voluptatem alias expedita quae harum non neque ut?",
