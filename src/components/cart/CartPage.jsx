@@ -27,6 +27,7 @@ const CartComponent = () => {
             flexDirection: "column",
             gap: "30px",
             padding: "50px",
+            textAlign: "center",
           }}
         >
           <h1>Your cart is empty! </h1>

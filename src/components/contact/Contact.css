@@ -1,15 +1,17 @@
 .contact {
     width: 100%;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: auto;
     padding: 120px;
     gap: 50px;
     background-color: #fff;
 }
 
 .contact .text{
-    width: 50%;
+    width: 100%;
 }
 .contact .text h1 {
     font-size: 35px;

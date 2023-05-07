@@ -1,4 +1,4 @@
-import { FaShopify, FaShoppingBasket, FaShoppingCart } from "react-icons/fa";
+import { FaShopify, FaShoppingBasket } from "react-icons/fa";
 import "./Shopping.css";
 import ProductCard from "../../Utilities/cards/ProductCard";
 import { useCart } from "react-use-cart";
@@ -6,7 +6,7 @@ import products from "./products";
 import FooterComponent from "../footer/FooterComponent";
 
 const Shopping = () => {
-  const { totalUniqueItems, items } = useCart();
+  const { totalUniqueItems } = useCart();
   return (
     <section id="shop" className="shop">
       <div className="shop-header">
