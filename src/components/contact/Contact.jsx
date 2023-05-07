@@ -18,22 +18,25 @@ const Contact = () => {
         <img src={contact} alt="" />
       </div>
       <div className="contact-cards">
-        <div className="contact-card">
+        <a href="tel:+254704991769" className="contact-card">
           <FaWhatsapp style={{ fontSize: "30px" }} />
-          <a href="tel:+254704991769">DM us today.</a>
-        </div>
-        <div className="contact-card">
+          <p>DM us today.</p>
+        </a>
+        <a
+          href="mailto:infopearsonsolutions@gmail.com"
+          className="contact-card"
+        >
           <FaEnvelope style={{ fontSize: "30px" }} />
-          <a href="mailto:infopearsonsolutions@gmail.com">Send us an email.</a>
-        </div>
-        <div className="contact-card">
+          <p>Send us an email.</p>
+        </a>
+        <a href="tel:+254704991769" className="contact-card">
           <FaPhone style={{ fontSize: "30px" }} />
-          <a href="tel:+254704991769">Call us today.</a>
-        </div>
-        <div className="contact-card">
+          <p>Call us today.</p>
+        </a>
+        <a href="tel:+254704991769" className="contact-card">
           <FaEnvelopeOpenText style={{ fontSize: "30px" }} />
-          <a href="tel:+254704991769">Message us.</a>
-        </div>
+          <p>Message us.</p>
+        </a>
       </div>
     </div>
   );

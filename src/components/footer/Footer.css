@@ -16,9 +16,11 @@ footer div {
 footer div h1 {
     font-size: 40px;
     line-height: 45px;
-    color: rgb(79, 142, 236);
+    color: rgb(163, 30, 30);
 }
-
+footer div h2 {
+    color: rgb(163, 30, 30);
+}
 footer div p {
     cursor: pointer;
     color: #333;
@@ -50,9 +52,6 @@ footer div p {
     footer div h1 {
         text-align: center;
         font-size: 30px;
-    }
-    footer div h2 {
-        color: rgb(79, 142, 236);
     }
     footer div p{
         font-size: 20px;

@@ -14,8 +14,9 @@ nav {
     width: 100%;
     padding: 0 100px;
     height: 70px;
-    background-color: rgb(79, 142, 236);
-    color: #ffffff;
+    background-color: #fff;
+    color: #555;
+    box-shadow: 0px 0px 5px rgb(163, 30, 30);
 }
 
 .nav-items {
@@ -24,7 +25,27 @@ nav {
 }
 
 .nav-items a {
-    color: #ffffff;
+    color: #555;
+    font-size: 16px;
+}
+.nav-items a:hover {
+    color: rgb(163, 30, 30);
+    font-size: 16px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo h1{
+    font-family: cursive,monospace;
+    font-weight: 300;
+    font-size: 30px;
+}
+.logo img{
+    width: 60px;
+    height: 80px;
 }
 
 .banner {

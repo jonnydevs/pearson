@@ -27,6 +27,7 @@
   .about .text{
     margin-left: 20px;
     width: 100%;
+    text-align: left;
   }
   .about .text h1 {
     font-size: 30px;
@@ -49,5 +50,9 @@
  .about img {
   width: 80%;
   height: 80%;
+ }
+ .about .text h1 {
+   font-size: 25px;
+   line-height: 30px;
  }
 }

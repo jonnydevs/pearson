@@ -1,4 +1,5 @@
 import mobile from "/src/assets/mobile.png";
+import logo from "/src/assets/logo.png";
 import "./Header.css";
 
 const Header = () => {
@@ -6,7 +7,8 @@ const Header = () => {
     <header>
       <nav>
         <div className="logo">
-          <h1>{"<Pearson />"}</h1>
+          <img src={logo} alt="" className="logo-icon" />
+          <h1>Pearson</h1>
         </div>
         <div className="nav-items">
           <a href="/">Home</a>
@@ -20,12 +22,12 @@ const Header = () => {
         <div className="text">
           <h2>IT Services Company</h2>
           <h1>
-            Pearson <span>Computer</span> Solutions
+            Pearson <span>Solutions</span>
           </h1>
           <p>
-            Pearson is your one stop service provider that provides
-            all IT related services. Shop with us today and have your order 
-            delivered to you asap.
+            Pearson is your one stop service provider that provides all IT
+            related services. Shop with us today and have your order delivered
+            to you asap.
           </p>
           <div className="btns">
             <a href="#about" className="primary-btn">

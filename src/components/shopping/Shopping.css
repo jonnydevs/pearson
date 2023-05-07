@@ -12,12 +12,12 @@
     align-items: center;
     padding: 0 120px;
     height: 70px;
-    box-shadow: 0px 0px 5px rgb(79, 142, 236);
+    box-shadow: 0px 0px 5px rgb(163, 30, 30);
     width: 100%;
 }
 
 .shop-header h2 {
-    color: rgb(79, 142, 236);
+    color: rgb(163, 30, 30);
     font-size: 30px;
     display: flex;
     gap: 10px;
@@ -25,7 +25,7 @@
 
 .shop-header a {
     position: relative;
-    background-color: rgb(79, 142, 236);
+    background-color: rgb(163, 30, 30);
     padding: 10px 15px;
     border-radius: 10px;
 }
@@ -91,7 +91,7 @@
 
 .item-info {
     width: 100%;
-    background-color: rgb(79, 142, 236);
+    background-color: rgb(163, 30, 30);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -125,7 +125,7 @@
     border: none;
     padding: 5px 15px;
     border-radius: 10px;
-    color: rgb(79, 142, 236);
+    color: rgb(163, 30, 30);
     font-size: 20px;
     cursor: pointer;
 }
