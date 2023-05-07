@@ -33,7 +33,7 @@ const CartComponent = () => {
           <h1>Your cart is empty! </h1>
           <p>
             Click
-            <Link to="/shop" style={{ color: "#35b8be", margin: "0 7px" }}>
+            <Link to="/shop" style={{ color: "rgb(163, 30, 30)", margin: "0 7px" }}>
               here
             </Link>
             to continue shopping.
