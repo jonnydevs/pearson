@@ -28,6 +28,7 @@ nav {
     color: #555;
     font-size: 16px;
 }
+
 .nav-items a:hover {
     color: rgb(163, 30, 30);
     font-size: 16px;
@@ -38,12 +39,14 @@ nav {
     align-items: center;
     justify-content: center;
 }
-.logo h1{
-    font-family: cursive,monospace;
+
+.logo h1 {
+    font-family: monospace;
     font-weight: 300;
     font-size: 30px;
 }
-.logo img{
+
+.logo img {
     width: 60px;
     height: 80px;
 }
