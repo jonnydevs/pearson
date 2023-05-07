@@ -7,7 +7,7 @@ const ServiceCard = ({ service }) => {
       <div className="desc">
         <h2>{service.title}</h2>
         <p>{service.description}</p>
-        <a href="#" className="primary-btn">
+        <a href="tel:+254704991769" className="primary-btn">
           Hire us
         </a>
       </div>

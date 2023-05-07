@@ -72,3 +72,19 @@ a {
   line-height: 25px;
   font-size: 18px;
 }
+
+@media screen and (max-width: 768px) {
+  .text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .text h1 {
+      font-size: 25px;
+      line-height: 35px;
+    }
+    .text p{
+      font-size: 16px;
+      line-height: 20px;
+    }
+}

@@ -2,7 +2,7 @@ import ServiceCard from "../../Utilities/cards/ServiceCard";
 import "./Services.css";
 import Graphic from "/src/assets/graphic.jpg";
 import printing from "/src/assets/printing.jpg";
-import KRA from "/src/assets/kra.png"
+import KRA from "/src/assets/kra.png";
 import software from "/src/assets/software.jpg";
 
 const services = [
@@ -11,28 +11,28 @@ const services = [
     image: Graphic,
     title: "Graphic Design",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore a quo consequatur voluptatem alias expedita quae harum non neque ut?",
+      "Whether it is a banner for your business,  or a product,we will create stunning graphics for you. Hire us today at an affordable rate.",
   },
   {
     id: 2,
     image: printing,
     title: "Printing & Lamination",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore a quo consequatur voluptatem alias expedita quae harum non neque ut?",
+      "In need of past papers? Want a copy of your id or certificates? Pearson is your one stop shop for you and will provide outstanding services.",
   },
   {
     id: 3,
     image: KRA,
     title: "KRA PIN Application",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore a quo consequatur voluptatem alias expedita quae harum non neque ut?",
+      "All government service applications are available at our shop. KRA, NTSA, HELB and other government services are available.  ",
   },
   {
     id: 4,
     image: software,
     title: "Software Installation",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore a quo consequatur voluptatem alias expedita quae harum non neque ut?",
+      "We do all software installations in your mac, windows and Linux systems. All services are done at pocket friendly rates.",
   },
 ];
 

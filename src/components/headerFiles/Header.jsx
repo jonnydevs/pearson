@@ -23,9 +23,9 @@ const Header = () => {
             Pearson <span>Computer</span> Solutions
           </h1>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Voluptatibus culpa numquam similique at molestias placeat assumenda
-            sed atque earum illo.
+            Pearson is your one stop service provider that provides
+            all IT related services. Shop with us today and have your order 
+            delivered to you asap.
           </p>
           <div className="btns">
             <a href="#about" className="primary-btn">

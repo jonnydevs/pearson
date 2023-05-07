@@ -20,19 +20,19 @@ const Contact = () => {
       <div className="contact-cards">
         <div className="contact-card">
           <FaWhatsapp style={{ fontSize: "30px" }} />
-          <a href="tel:+254000000000">DM us today.</a>
+          <a href="tel:+254704991769">DM us today.</a>
         </div>
         <div className="contact-card">
           <FaEnvelope style={{ fontSize: "30px" }} />
-          <a href="tel:+254000000000">Send us an email.</a>
+          <a href="mailto:infopearsonsolutions@gmail.com">Send us an email.</a>
         </div>
         <div className="contact-card">
           <FaPhone style={{ fontSize: "30px" }} />
-          <a href="tel:+254000000000">Call us today.</a>
+          <a href="tel:+254704991769">Call us today.</a>
         </div>
         <div className="contact-card">
           <FaEnvelopeOpenText style={{ fontSize: "30px" }} />
-          <a href="tel:+254000000000">Message us.</a>
+          <a href="tel:+254704991769">Message us.</a>
         </div>
       </div>
     </div>

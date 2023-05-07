@@ -69,11 +69,13 @@ const Shop = () => {
             We will <span>deliver</span> it to you!
           </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias a
-            laborum porro at illum perferendis quae? Deleniti, id? Temporibus,
-            delectus?
+            Ordering online has never been this easy. With Pearson shopping, you
+            can purchase products with one click. Delivery is done quickly and
+            discreetly.
           </p>
-          <p>See our full product catalogue <a href="/shop">here.</a></p>
+          <p>
+            See our full product catalogue <a href="/shop">here.</a>
+          </p>
         </div>
         <img src={order} alt="" />
       </div>

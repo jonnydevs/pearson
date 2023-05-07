@@ -2,11 +2,15 @@
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 120px;
     gap: 50px;
     background-color: #fff;
 }
 
+.contact .text{
+    width: 50%;
+}
 .contact .text h1 {
     font-size: 35px;
     line-height: 40px;
@@ -16,6 +20,7 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
+    width: 50vw;
 }
 
 .contact-card {
@@ -34,4 +39,36 @@
 
 .contact-card:hover {
     box-shadow: 2px 4px 18px rgb(79, 142, 236);
+}
+.contact img{
+    width: 30vw;
+}
+@media screen and (max-width: 900px) {
+    .contact{
+        padding: 50px;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact .text{
+        width: 100%;
+    }
+    .contact img{
+        width: 80vw;
+        object-fit: fill;
+    }
+    .contact-cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 680px) {
+    .contact-cards{
+        grid-template-columns: 100%;
+        width: 100%;
+    }
+    .contact-card{
+        width: 100%;
+    }
 }

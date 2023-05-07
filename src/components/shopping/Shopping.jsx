@@ -29,6 +29,9 @@ const Shopping = () => {
           <ProductCard item={product} key={product.id} />
         ))}
       </div>
+      <a href="/" className="primary-btn">
+        Back to home
+      </a>
       <FooterComponent />
     </section>
   );

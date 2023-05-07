@@ -5,7 +5,9 @@ const FooterComponent = () => {
     <footer>
       <div>
         <h1>Pearson Solutions</h1>
-        <a href="#">pearsonsolutions@gmail.com</a>
+        <a href="mailto:infopearsonsolutions@gmail.com">
+          infopearsonsolutions@gmail.com
+        </a>
       </div>
       <div>
         <h2>Sotware</h2>

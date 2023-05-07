@@ -1,6 +1,8 @@
 .shop {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 40px;
 }
 
@@ -125,4 +127,48 @@
     color: rgb(79, 142, 236);
     font-size: 20px;
     cursor: pointer;
+}
+.shop a{
+    text-align: center;
+    width: fit-content;
+}
+@media screen and (max-width: 1000px) {
+    .shop-header {
+        padding: 0 50px;
+    }
+
+    .items {
+        grid-template-columns: repeat(3, 200px);
+    }
+}
+
+@media screen and (max-width: 710px) {
+    .shop-header {
+        padding: 0 20px;
+    }
+
+    .items {
+        grid-template-columns: repeat(2, 200px);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .shop-header {
+        padding: 0 20px;
+    }
+
+    .items {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .shop-header {
+        padding: 0 20px;
+    }
+
+    .items {
+        grid-template-columns: 70%;
+        gap: 40px;
+    }
 }

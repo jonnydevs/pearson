@@ -21,28 +21,28 @@ const messages = [
   {
     id: 1,
     image: man,
-    say: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quos modi voluptatibus, saepe beatae sint ipsum, molestiae aspernatur autem eos delectus voluptates. Qui, tempore nisi, architecto eligendi doloribus explicabo ratione.",
+    say: "Pearson has always been my reliable go-to shop whenever I needed revision materials for my school work. The materials are always on point, you cant miss a mark with Pearsons new & updated revision materials.",
     name: "Jonny devs",
     profession: "Student",
   },
   {
     id: 2,
     image: man2,
-    say: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quos modi voluptatibus, saepe beatae sint ipsum, molestiae aspernatur autem eos delectus voluptates. Qui, tempore nisi, architecto eligendi doloribus explicabo ratione.",
+    say: "A while ago, I needed a banner for my barber shop. A friend reffered me to Pearsons. The banner was so well done that I have always turned to Pearson for all my IT related needs.",
     name: "Daniel Michael",
     profession: "Barber",
   },
   {
     id: 3,
     image: woman,
-    say: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quos modi voluptatibus, saepe beatae sint ipsum, molestiae aspernatur autem eos delectus voluptates. Qui, tempore nisi, architecto eligendi doloribus explicabo ratione.",
+    say: "Since starting my business about a year ago, I contacted Pearsons to design my shop and banners for my shop advertisement. I can highly recommend that you contact them directly to get started.",
     name: "Tracy Wairimu",
     profession: "Salonist",
   },
   {
     id: 4,
     image: woman2,
-    say: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quos modi voluptatibus, saepe beatae sint ipsum, molestiae aspernatur autem eos delectus voluptates. Qui, tempore nisi, architecto eligendi doloribus explicabo ratione.",
+    say: "After facing many business management problems, I contacted Pearsons to help with automating my business management. They came up with an efficient point of sale system that I have been using for my business.",
     name: "Lillian Amollo",
     profession: "Business Manager",
   },
@@ -55,9 +55,9 @@ const ReviewComponent = () => {
           What our <span>Customers</span> say about us.
         </h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus iure
-          nobis iusto. Suscipit facere necessitatibus cupiditate sunt dolor,
-          temporibus quis.
+          Since our services are efficient and reliable,we have always received
+          positive feedback from our customers. This makes us very reliable &
+          trustworthy.
         </p>
       </div>
       <Swiper
@@ -81,8 +81,8 @@ const ReviewComponent = () => {
         className="mySwiper"
       >
         {messages.map((message) => (
-          <SwiperSlide>
-            <ReviewCard message={message} key={message.id} />
+          <SwiperSlide key={message.id}>
+            <ReviewCard message={message} />
           </SwiperSlide>
         ))}
       </Swiper>

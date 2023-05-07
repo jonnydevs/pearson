@@ -70,15 +70,16 @@ const CartComponent = () => {
           </div>
           <div className="checkout">
             <h2
-              className="cart-title"
-              style={{ borderBottom: "1px solid #555" }}
+              className="cart-title summary"
+              style={{ borderBottom: "1px solid #555", textAlign: "center" }}
             >
               Summary
             </h2>
             <div className="checkout-desc">
               <h3>Total items {totalUniqueItems}</h3>
               {items.map((item) => (
-                <p
+                <div
+                  className="item-summary"
                   style={{
                     display: "flex",
                     justifyContent: "space-between",
@@ -87,14 +88,10 @@ const CartComponent = () => {
                   }}
                   key={item.id}
                 >
-                  {item.title}{" "}
-                  <>
-                    <span>&times; {item.quantity}</span>{" "}
-                    <span>
-                      Total = {(item.quantity * item.price).toFixed(2)}
-                    </span>
-                  </>
-                </p>
+                  <p>{item.title}</p>
+                  <p>&times; {item.quantity}</p>{" "}
+                  <p>Total = {(item.quantity * item.price).toFixed(2)}</p>
+                </div>
               ))}
             </div>
             <div className="total">
@@ -104,7 +101,7 @@ const CartComponent = () => {
             <button className="checkout-btn">Checkout</button>
           </div>
         </div>
-      ) }
+      )}
       <FooterComponent />
     </>
   );
